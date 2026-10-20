@@ -14,7 +14,7 @@ KTX 전용 커스텀 예매 CLI입니다.
 pkg update
 pkg install python git -y
 
-git clone https://github.com/본인아이디/ktx100.git
+git clone https://github.com/hd-baek/ktx100.git
 cd ktx100
 pip install .
 ktx100
