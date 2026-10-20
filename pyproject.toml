@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ktx100"
+version = "1.0.0"
+description = "KTX-only custom reservation CLI"
+requires-python = ">=3.10"
+dependencies = [
+    "click",
+    "inquirer",
+    "keyring",
+    "keyrings.alt",
+    "termcolor",
+    "python-telegram-bot",
+    "requests",
+    "pycryptodome",
+    "korail-mobile-api",
+]
+
+[project.scripts]
+ktx100 = "ktx100.main:ktx100"
+
+[tool.setuptools]
+packages = ["ktx100"]
